@@ -602,7 +602,83 @@ footer{
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-/* .column1{
+.column1 {
     display: flex;
-    gap: 3vh;
-} */
+    flex-direction: column;
+    gap: 2vh;
+
+}
+
+.column2 {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+
+}
+
+.column3 {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+
+}
+
+.column4 {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+
+}
+
+footer a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+}
+
+.column-head a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+}
+
+.head-link {
+    padding: 7vh 11vw;
+}
+
+.select select {
+    border: 1px solid grey;
+    background-color: #0F0F0F;
+    height: 5.3vh;
+    font-size: 16px;
+    font-weight: 500;
+    width: 8vw;
+    color: white;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.select {
+    padding: 12vh 11vw;
+}
+
+.second-last-line {
+    color: rgba(255, 255, 255, 0.7);
+    position: relative;
+    bottom: 7vh;
+    padding: 0 11vw;
+    font-size: 14px;
+}
+
+.last-line {
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    bottom: 1.5vh;
+    padding: 0 11vw;
+    font-size: 13px;
+}
+
+.last-line a {
+    color: rgb(68, 142, 244);
+    font-size: 13px;
+}
